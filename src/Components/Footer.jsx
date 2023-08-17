@@ -66,7 +66,7 @@ const Footer = () => {
             <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Contact</h4>
               <p className="font-bold text-[#7c797d]">123324234</p>
-              <p className="font-bold text-[#7c797d]">info@dsdfsd.k</p>
+              <p className="font-bold text-[#7c797d]">info@test.test</p>
             </div>
           </div>
           <div className="flex flex-row justify-between text-[#7c797d]">
