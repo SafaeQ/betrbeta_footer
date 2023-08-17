@@ -58,7 +58,10 @@ const Footer = () => {
             </div>
             <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Locations</h4>
-              <p className="font-semibold text-[#7c797d] text-sm">Toronto</p>
+              <p className="font-semibold text-[#7c797d] text-sm text-left flex items-start justify-start ">
+                10 Anson Road, no. 20-05 International Plaza,
+                <br /> 079903, Singapore
+              </p>
             </div>
             <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Contact</h4>
@@ -71,7 +74,7 @@ const Footer = () => {
               <p>Terms & conditions</p>
             </div>
             <div className="text-lg font-bold">
-              <p>&copy; 2023 Your Company. All rights reserved.</p>
+              <p>&copy; 2023 Betr Beta. All rights reserved.</p>
             </div>
             <div className=" font-semibold">
               <p>Privacy Policy</p>
