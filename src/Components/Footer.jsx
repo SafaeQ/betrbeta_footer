@@ -1,8 +1,15 @@
 import React from "react";
+import {
+  FaTwitterSquare,
+  FaFacebookSquare,
+  FaLinkedin,
+  FaInstagram,
+} from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
+      <div className="flex-grow">{/* the main content goes here */}</div>
       <footer className="bg-black text-white py-4">
         <div className="container mx-auto text-center flex flex-col gap-10 m-8">
           <div className="flex flex-row justify-between">
@@ -24,31 +31,36 @@ const Footer = () => {
                 Download App
               </button>
             </div>
-            <div>
+            <div className="flex flex-row gap-3">
               <button className="rounded-full">
-                {" "}
-                <AiOutlineInstagram />{" "}
+                <FaInstagram size={25} />
               </button>
-              <button className="rounded-full">ل</button>
-              <button className="rounded-full">ب</button>
-              <button className="rounded-full">ي</button>
+              <button className="rounded-full">
+                <FaFacebookSquare size={25} />
+              </button>
+              <button className="rounded-full">
+                <FaTwitterSquare size={25} />
+              </button>
+              <button className="rounded-full">
+                <FaLinkedin size={25} />
+              </button>
             </div>
           </div>
-          <div className="flex flex-row justify-between">
-            <div>
+          <div className="flex flex-row justify-between items-start">
+            <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">About Us</h4>
               <p className="font-bold text-[#d3d0d6] text-sm">Our Story</p>
               <p className="font-semibold text-[#7c797d] text-sm">Careers</p>
             </div>
-            <div>
+            <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Commpany Values</h4>
               <p className="font-bold text-[#d3d0d6] text-sm">Environment</p>
             </div>
-            <div>
+            <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Locations</h4>
               <p className="font-semibold text-[#7c797d] text-sm">Toronto</p>
             </div>
-            <div>
+            <div className="flex flex-col items-start justify-start">
               <h4 className="font-bold">Contact</h4>
               <p className="font-bold text-[#7c797d]">123324234</p>
               <p className="font-bold text-[#7c797d]">info@dsdfsd.k</p>
